@@ -1,0 +1,21 @@
+# 시간복잡도
+
+보편적으로 10^8이 문제의 limit(100,000,000)
+
+O(1) < O(logn) < O(n) < O(nlogn) < O(n) < O(n^2)
+
+ex) 문제의 기본 제약조건 : 1 <= n <= 10^5  
+
+1) n^2으로 문제를 풀면 10^10이 되므로 불가
+2) O(nlogn), O(n) 등 O(n^2) 이하의 방식으로 풀어야 함
+
+# 실행시간
+
+python - timeit 모듈로 실제 실행을 통해서 파악 
+
+
+
+git commit -m "algorithm restart"
+git branch -M main
+git remote add origin https://github.com/walker0625/python-algorithm.git
+git push -u origin main
