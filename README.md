@@ -11,11 +11,4 @@ ex) 문제의 기본 제약조건 : 1 <= n <= 10^5
 
 # 실행시간
 
-python - timeit 모듈로 실제 실행을 통해서 파악 
-
-
-
-git commit -m "algorithm restart"
-git branch -M main
-git remote add origin https://github.com/walker0625/python-algorithm.git
-git push -u origin main
+python - timeit 모듈로 실제 실행을 통해서 파악
