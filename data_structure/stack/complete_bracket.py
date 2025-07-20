@@ -1,5 +1,4 @@
-
-def complete_bracket_stack(brackets):
+def complete_bracket(brackets):
 
     stack = []
 
@@ -15,4 +14,4 @@ def complete_bracket_stack(brackets):
 
     return not stack
 
-print(complete_bracket_stack('[{()}]'))
+print(complete_bracket('[{()}]'))
