@@ -29,3 +29,10 @@ ex) 문제의 제약조건 : 1 <= n <= 10^5
 2. 범위수가 작다면 그냥 단순하게 접근해도 문제 없음(M=20, N=20)
 
 3. 제한에 대한 확신 이후에 풀이 접근(풀고나서 제한에 걸리는 시간 낭비 방지)
+
+
+# Hash Table(Dictionary의 내부 구현 - Hash Function 활용 : O(1))
+
+![alt text](image.png)
+
+if 'key' in 'Dictionary' - O(1)으로 탐색 가능(Memory 활용)
