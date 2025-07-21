@@ -8,7 +8,7 @@ def two_sum_by_hashtable(nums, target):
     for num in nums:
         key = target - num # key : target이 되기 위해 필요한 숫자
         
-        if key in hashtable:
+        if key in hashtable: # O(1)으로 탐색 가능한 것이 POINT!(key in nums(list)로 하면 O(n)으로 동작)
             return True
 
     return False
