@@ -1,4 +1,3 @@
-from  collections import deque
 def can_visit_all_rooms(rooms):
 
     visited = set() # in 연산을 위해 set를 사용
