@@ -16,3 +16,4 @@ def can_visit_all_rooms(rooms):
 rooms = [[1,3],[2,4],[0],[4],[],[3,4]]
 
 print(can_visit_all_rooms(rooms))
+
